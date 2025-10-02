@@ -53,7 +53,7 @@ param(
 	[bool]$MonitorJobs = $false,
     
 	[Parameter(Mandatory = $false)]
-	[int]$JobTimeoutSeconds = 120,
+	[int]$JobTimeoutSeconds = 300,
     
 	[Parameter(Mandatory = $false)]
 	[string[]]$ExcludeResourceGroups = @()
